@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:montserrat;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: aliceblue;
+}
+#nav{
+    height:100px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 0px 40px
+}
+
+#nav1{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    
+}
+
+#nav1 h3{
+    font-size: 17px;
+    border: 1.5px solid black;
+    padding: 5px 8px;
+    border-radius: 40px;
+    font-weight: 600;
+}
+
+#img1{
+    margin-left: 4px;
+    font-size: 17px;
+    border: 1.5px solid black;
+    padding: 5px 8px;
+    border-radius: 40px;
+    font-weight: 600;
+}
+
+#nav2 h1{
+    font-weight: 600;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+#nav button{
+    padding: 7px 12px;
+    border-radius: 40px;
+    border: 1.5px solid black;
+    font-size: 16px;
+    font-weight: 600;
+}
+#btn2{
+color: aliceblue;
+background-color: orangered;
+border: none;
+}
+
+#Tagline{                 /* or main>h1  can be written like this*/
+font-size: 100px;
+text-transform:uppercase;
+position: absolute;
+top: 50%;
+left: 50%;
+transform:translate(-50%,-50%);
+width: 100%;
+text-align: center;
+}
+
+#one{
+    height: 350px;
+    width: 300px;
+    object-fit:cover;
+    object-position:0px 0px;    /*left right top bottom */
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    border-radius: 30px;
+    rotate: -10deg;
+}
+#two{
+    height: 350px;
+    width: 300px;
+    object-fit:cover;
+    object-position:0px 0px;    /*left right top bottom */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    border-radius: 30px;
+
+}
+#three{
+    height: 350px;
+    width: 300px;
+    object-fit:cover;
+    object-position:0px 0px;    /*left right top bottom */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    border-radius: 30px;
+
+}
+
+#five{
+    height: 350px;
+    width: 300px;
+    object-fit:cover;
+    object-position:0px 0px;    /*left right top bottom */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    border-radius: 30px;
+
+}
+#four{
+    height: 350px;
+    width: 300px;
+    object-fit:cover;
+    object-position:0px 0px;    /*left right top bottom */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    border-radius: 30px;
+
+}
+#one{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+#two{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#three{
+    transform: translate(-50%,-50%) rotate(-0deg);
+}
+#four{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+#btml{
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    font-size: 12px
+}
+
+#img2{
+    
+position: absolute;
+top:90%;
+left: 90%;
+font-size: 20px;
+
+}
